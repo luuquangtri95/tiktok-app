@@ -1,0 +1,20 @@
+.menu-list {
+  width: 234px;
+  .menu-item {
+    margin-left: 0;
+    padding: 9px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    &:last-child {
+      padding-bottom: 8px;
+    }
+  }
+}
+
+.menu-item {
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}

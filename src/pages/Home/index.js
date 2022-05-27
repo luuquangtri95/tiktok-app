@@ -1,5 +1,11 @@
+import { useEffect, useState } from 'react'
+
 function Home() {
-  return <h2 style={{ textAlign: 'center' }}>Home Page</h2>
+  const [videoList, setVideoList] = useState([])
+
+  useEffect(() => {}, [])
+
+  return <h2 style={{ textAlign: 'left' }}>Home Page</h2>
 }
 
 export default Home
